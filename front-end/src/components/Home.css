@@ -1,0 +1,139 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.hero {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-title .highlight {
+  color: #ffdd57;
+  font-weight: bold;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #ff3d3d;
+}
+
+.featured-books {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.book-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+
+.book-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.book-title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.book-author {
+  font-size: 1rem;
+  color: #555;
+}
+
+.btn-secondary {
+  background-color: #4facfe;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #00c6ff;
+}
+
+.community {
+  background: rgb(28, 190, 190);
+  padding: 50px 0;
+  text-align: center;
+}
+
+.community-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #ddd;
+  padding: 10px 20px;
+  border: 2px solid  #ff3d3d;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background-color: #ff3d3d;
+}
+  
